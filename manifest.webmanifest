@@ -1,0 +1,99 @@
+{
+  "name": "WeatherFitMe",
+  "short_name": "WeatherFitMe",
+  "description": "A fun alternative to the boring default weather app: the forecast hour by hour, and exactly what to wear in it, on a friendly character who looks like you. Free and open source.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0E18",
+  "theme_color": "#0A0E18",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "description": "What to wear now",
+      "url": "./",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Forecast",
+      "short_name": "Forecast",
+      "description": "The next ten days",
+      "url": "./#forecast",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Wardrobe",
+      "short_name": "Wardrobe",
+      "description": "The week ahead, outfit by outfit",
+      "url": "./#wardrobe",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Your character",
+      "short_name": "You",
+      "description": "Your character, alerts and widgets",
+      "url": "./#you",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "id": "./",
+  "scope": "./",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "categories": [
+    "weather",
+    "lifestyle",
+    "utilities"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "prefer_related_applications": false
+}
